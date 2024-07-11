@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 body {
     background-color: rgb(22, 36, 36);
 }
@@ -9,7 +11,7 @@ body {
     padding: 12px;
 
     width: 300px;
-    width: 31vw;
+    width: 20vw;
 }
 .sidebar__navigation {
     background-color: #121212;
@@ -99,7 +101,10 @@ body {
     font-weight: 600;
     font-size: 14px;
     margin: 8px 0px;
+    margin-left: 5px;
     padding: 16px 20px;
+    border-radius: 10px;
+    width: 16.7vw;
 }
 
 .section-playlist .section-playlis__content {
@@ -109,6 +114,7 @@ body {
 
 .section-playlist__content .text {
     display: flex;
+    font-family: "DM Sans", sans-serif;
     padding-bottom: 14px;
     color: #fff;
 }
@@ -164,5 +170,52 @@ body {
     width: 170px;
     margin: 8px;
     padding: 8px;
+    border-radius: 20px;
 }
 
+
+.section-footer {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    bottom: 0vh;
+    margin-top: 100vh;
+    padding: 10px 0px 10px 30px;
+    background-color: darkorchid;
+}
+
+.text {
+    word-wrap: break-word;
+    word-spacing: normal;
+    text-wrap: nowrap;
+}
+.section-footer .text_footer {
+    display: flex;
+    justify-content: space-between; /*deixa tudo justificado junto com o DISPLAY FLAX*/
+    flex-direction: column;/*trabalha junto com o JUSTIFY-CONTENT*/
+    margin: 10px;
+    font-family: "DM Sans", sans-serif;
+    color: #fff;
+}
+
+.section-footer .text1 {
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.section-footer .text2 {
+    text-wrap: wrap;
+    font-weight: 300;
+}
+
+.section-footer > button {
+    padding: 0 24px;
+    margin-top: 1em;
+    margin-right: 8vw;
+    border-radius: 20px;
+    font-size: 16px;
+    height: 2.5em;
+    border: none;
+}
