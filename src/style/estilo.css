@@ -41,7 +41,6 @@ body {
     text-decoration: none; /*Para remover a decoracao de bolete*/
     font-weight: 600;
     font-size: 14px;
-    font-family: "DM Sans", sans-serif;
 }
 .logo img {
     width: 80px;
@@ -72,7 +71,6 @@ body {
     background-color: transparent; /*Eliminando a cor no BUTTON*/
     border: 0px;
     font-size: 1rem; /*deveria ser 14 px contudo foi usado para responsividade*/
-    font-family: "DM Sans", sans-serif;
     text-align: center;
     text-decoration: none;
     text-transform: none;
@@ -115,7 +113,6 @@ body {
 
 .section-playlist__content .text {
     display: flex;
-    font-family: "DM Sans", sans-serif;
     padding-bottom: 14px;
     color: #fff;
 }
@@ -137,7 +134,6 @@ body {
     border-radius: 20px;
     font-size: 12px;
     font-weight: 700;
-    font-family: "DM Sans", sans-serif;
     text-decoration: none;
     text-transform: none;
     padding: 10px;
@@ -196,7 +192,6 @@ body {
     justify-content: space-between; /*deixa tudo justificado junto com o DISPLAY FLAX*/
     flex-direction: column;/*trabalha junto com o JUSTIFY-CONTENT*/
     margin: 10px;
-    font-family: "DM Sans", sans-serif;
     color: #fff;
 }
 
