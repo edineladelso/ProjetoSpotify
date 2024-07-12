@@ -13,6 +13,9 @@
     <!--Adicionando Variaveis-->
     <link rel="stylesheet" href="src/style/vars.css">
 
+    <!--Adicionando estilo da parte principal do conteudo-->
+    <link rel="stylesheet" href="src/style/main-content.css">
+
     <!--Adicionando agora as fontes figuradas do fonteawesone-->
     <link rel="stylesheet" href="src/fontawesome/css/all.css">
 </head>
@@ -94,7 +97,28 @@
     </header>
     
     <main>
+        <div class="main-container">
+            <nav class="header__navigation">
+                <div class="navigation">
+                    <button class="arrow-left">
+                        <span class="fa fa-arrow-left"></span>
+                    </button>
+                    <button class="arrow-right">
+                        <span class="fa fa-arrow-right"></span>
+                    </button>
 
+                    <div class="header__search">
+                        <span class="fa fa-search"></span>
+                        <input id="search-input" type="text" maxlength="800" placeholder="O que você gostaria de ouvir"/>
+                    </div>
+
+                    <div class="header__login">
+                        <button class="subscribe">Inscreva-se</button>
+                        <button class="login">Entrar</button>
+                    </div>
+                </div>
+            </nav>
+        </div>
     </main>
 
     <footer>
